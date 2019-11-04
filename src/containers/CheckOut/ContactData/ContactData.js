@@ -8,7 +8,7 @@ import Input from '../../../components/UI/Input/Input';
 import withErrorHandler from '../../../hoc/WithErrorHandler/WithErrorHandler'
 import * as orderActions from '../../../store/actions/index';
 import classes from './ContactData.module.css'
-
+import { updateObject } from '../../../shared/utility';
 
 class contactData extends Component {
     state = {

@@ -1,5 +1,4 @@
 import * as actionTypes from '../actions/actionTypes';
-import { updatedObject } from '../utility';
 
 const initialState = {
     ingredients: null,
