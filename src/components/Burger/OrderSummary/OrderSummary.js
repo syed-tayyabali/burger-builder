@@ -4,10 +4,7 @@ import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
     //this doesn't have to be class component anymore, this could be functional component.
-    componentWillUpdate(){
-        console.log('[OrderSummary] willUpdate');
-    }
-    
+
     render() {
         const ingredientsSummary = Object.keys(this.props.ingredients).map(igkey => {
             return (
